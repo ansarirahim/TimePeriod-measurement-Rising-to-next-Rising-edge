@@ -1,0 +1,3 @@
+#!/bin/sh
+pasm -b P930.p
+arm-linux-gnueabihf-g++  P930.cpp -o P930 -lpthread -lprussdrv
